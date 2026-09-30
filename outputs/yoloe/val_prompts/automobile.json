@@ -1,0 +1,1382 @@
+{
+ "meta": {
+  "method": "YOLOE-26s [automobile]",
+  "conf_threshold": 0.1024,
+  "has_scores": true,
+  "min_conf_saved": 0.001,
+  "weights": "yoloe-26s-seg.pt",
+  "imgsz": 640,
+  "split": "val",
+  "device": "cpu"
+ },
+ "images": {
+  "000373": {
+   "width": 333,
+   "height": 500,
+   "predictions": [
+    {
+     "xyxy": [
+      14.7,
+      344.7,
+      316.4,
+      450.6
+     ],
+     "conf": 0.6296,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      17.4,
+      344.8,
+      221.5,
+      449.6
+     ],
+     "conf": 0.0022,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      128.7,
+      353.3,
+      172.0,
+      375.7
+     ],
+     "conf": 0.0021,
+     "prompt_class": "automobile"
+    }
+   ],
+   "ground_truth": [
+    [
+     18.0,
+     342.0,
+     318.0,
+     452.0
+    ]
+   ]
+  },
+  "003053": {
+   "width": 500,
+   "height": 333,
+   "predictions": [
+    {
+     "xyxy": [
+      458.1,
+      214.7,
+      487.8,
+      233.1
+     ],
+     "conf": 0.2744,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      54.1,
+      194.8,
+      121.5,
+      235.0
+     ],
+     "conf": 0.0667,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      292.7,
+      178.9,
+      444.2,
+      227.0
+     ],
+     "conf": 0.0389,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      295.0,
+      207.5,
+      349.4,
+      224.9
+     ],
+     "conf": 0.0116,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      366.7,
+      195.5,
+      444.1,
+      227.0
+     ],
+     "conf": 0.0041,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      287.4,
+      179.9,
+      370.9,
+      224.1
+     ],
+     "conf": 0.0029,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      296.5,
+      208.1,
+      328.1,
+      224.9
+     ],
+     "conf": 0.0024,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      0.4,
+      177.6,
+      236.1,
+      230.6
+     ],
+     "conf": 0.0023,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      63.6,
+      196.1,
+      116.4,
+      231.3
+     ],
+     "conf": 0.0021,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      96.5,
+      210.5,
+      121.0,
+      232.8
+     ],
+     "conf": 0.0021,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      0.0,
+      177.1,
+      230.1,
+      215.3
+     ],
+     "conf": 0.0015,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      287.0,
+      188.5,
+      333.1,
+      220.4
+     ],
+     "conf": 0.0013,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      257.0,
+      212.8,
+      265.9,
+      225.2
+     ],
+     "conf": 0.0013,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      53.6,
+      194.1,
+      86.5,
+      234.8
+     ],
+     "conf": 0.0012,
+     "prompt_class": "automobile"
+    }
+   ],
+   "ground_truth": [
+    [
+     457.0,
+     209.0,
+     490.0,
+     236.0
+    ]
+   ]
+  },
+  "003331": {
+   "width": 500,
+   "height": 333,
+   "predictions": [
+    {
+     "xyxy": [
+      275.6,
+      138.0,
+      349.0,
+      169.4
+     ],
+     "conf": 0.3233,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      100.3,
+      145.2,
+      186.9,
+      179.5
+     ],
+     "conf": 0.2757,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      440.4,
+      130.6,
+      499.9,
+      177.9
+     ],
+     "conf": 0.2466,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      161.4,
+      139.9,
+      311.1,
+      223.7
+     ],
+     "conf": 0.1549,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      421.6,
+      121.1,
+      469.5,
+      149.2
+     ],
+     "conf": 0.0541,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      425.4,
+      121.5,
+      460.4,
+      134.5
+     ],
+     "conf": 0.049,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      0.0,
+      115.6,
+      10.1,
+      155.5
+     ],
+     "conf": 0.0097,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      455.9,
+      131.1,
+      497.7,
+      148.2
+     ],
+     "conf": 0.0095,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      314.0,
+      128.6,
+      333.5,
+      147.8
+     ],
+     "conf": 0.0073,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      479.0,
+      127.8,
+      499.8,
+      145.4
+     ],
+     "conf": 0.0049,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      455.6,
+      132.9,
+      484.2,
+      148.6
+     ],
+     "conf": 0.0031,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      278.0,
+      139.1,
+      322.9,
+      167.8
+     ],
+     "conf": 0.0027,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      0.1,
+      116.3,
+      4.5,
+      154.8
+     ],
+     "conf": 0.0027,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      489.0,
+      131.5,
+      500.0,
+      144.3
+     ],
+     "conf": 0.0019,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      484.5,
+      130.8,
+      499.9,
+      175.8
+     ],
+     "conf": 0.0018,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      0.5,
+      133.3,
+      10.0,
+      155.5
+     ],
+     "conf": 0.0018,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      425.6,
+      114.7,
+      454.4,
+      134.5
+     ],
+     "conf": 0.0015,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      0.1,
+      135.9,
+      2.8,
+      155.0
+     ],
+     "conf": 0.0013,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      489.8,
+      129.7,
+      500.0,
+      142.4
+     ],
+     "conf": 0.0012,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      426.9,
+      120.8,
+      481.1,
+      149.8
+     ],
+     "conf": 0.0011,
+     "prompt_class": "automobile"
+    }
+   ],
+   "ground_truth": [
+    [
+     160.0,
+     139.0,
+     312.0,
+     225.0
+    ],
+    [
+     437.0,
+     133.0,
+     499.0,
+     178.0
+    ],
+    [
+     100.0,
+     144.0,
+     189.0,
+     180.0
+    ],
+    [
+     279.0,
+     138.0,
+     350.0,
+     170.0
+    ],
+    [
+     421.0,
+     120.0,
+     479.0,
+     152.0
+    ]
+   ]
+  },
+  "003551": {
+   "width": 500,
+   "height": 375,
+   "predictions": [
+    {
+     "xyxy": [
+      34.7,
+      111.8,
+      431.0,
+      286.7
+     ],
+     "conf": 0.6593,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      0.0,
+      106.4,
+      181.2,
+      189.5
+     ],
+     "conf": 0.4043,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      296.2,
+      98.5,
+      415.3,
+      134.0
+     ],
+     "conf": 0.1024,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      334.5,
+      103.5,
+      415.2,
+      132.8
+     ],
+     "conf": 0.0739,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      296.0,
+      97.8,
+      357.1,
+      116.2
+     ],
+     "conf": 0.0486,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      112.1,
+      84.5,
+      167.9,
+      107.7
+     ],
+     "conf": 0.0066,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      112.2,
+      83.6,
+      145.8,
+      105.1
+     ],
+     "conf": 0.0052,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      488.2,
+      71.5,
+      500.0,
+      128.2
+     ],
+     "conf": 0.0026,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      294.6,
+      97.8,
+      362.0,
+      125.3
+     ],
+     "conf": 0.0021,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      487.1,
+      68.2,
+      500.0,
+      147.9
+     ],
+     "conf": 0.0014,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      303.1,
+      98.0,
+      356.8,
+      108.0
+     ],
+     "conf": 0.0012,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      432.0,
+      71.8,
+      500.0,
+      129.9
+     ],
+     "conf": 0.0011,
+     "prompt_class": "automobile"
+    }
+   ],
+   "ground_truth": [
+    [
+     31.0,
+     111.0,
+     431.0,
+     290.0
+    ],
+    [
+     0.0,
+     105.0,
+     216.0,
+     193.0
+    ],
+    [
+     297.0,
+     98.0,
+     357.0,
+     117.0
+    ],
+    [
+     338.0,
+     103.0,
+     417.0,
+     132.0
+    ]
+   ]
+  },
+  "004089": {
+   "width": 500,
+   "height": 334,
+   "predictions": [
+    {
+     "xyxy": [
+      209.9,
+      124.7,
+      457.0,
+      294.0
+     ],
+     "conf": 0.6368,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      22.5,
+      58.9,
+      262.3,
+      201.4
+     ],
+     "conf": 0.4346,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      135.5,
+      69.9,
+      187.6,
+      114.1
+     ],
+     "conf": 0.0108,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      254.4,
+      121.8,
+      434.8,
+      152.9
+     ],
+     "conf": 0.0053,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      19.8,
+      58.9,
+      210.2,
+      110.4
+     ],
+     "conf": 0.0033,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      180.3,
+      87.1,
+      224.6,
+      116.2
+     ],
+     "conf": 0.0024,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      103.1,
+      70.0,
+      185.7,
+      116.9
+     ],
+     "conf": 0.0018,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      181.3,
+      87.1,
+      262.6,
+      185.8
+     ],
+     "conf": 0.0011,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      134.3,
+      74.4,
+      262.0,
+      187.1
+     ],
+     "conf": 0.001,
+     "prompt_class": "automobile"
+    }
+   ],
+   "ground_truth": [
+    [
+     209.0,
+     121.0,
+     461.0,
+     298.0
+    ],
+    [
+     18.0,
+     57.0,
+     265.0,
+     200.0
+    ]
+   ]
+  },
+  "004519": {
+   "width": 500,
+   "height": 375,
+   "predictions": [
+    {
+     "xyxy": [
+      90.7,
+      113.6,
+      403.2,
+      240.5
+     ],
+     "conf": 0.4959,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      480.8,
+      127.1,
+      499.9,
+      256.8
+     ],
+     "conf": 0.137,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      480.4,
+      55.3,
+      500.0,
+      252.8
+     ],
+     "conf": 0.0053,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      0.0,
+      252.9,
+      8.9,
+      285.4
+     ],
+     "conf": 0.0022,
+     "prompt_class": "automobile"
+    }
+   ],
+   "ground_truth": [
+    [
+     91.0,
+     109.0,
+     407.0,
+     240.0
+    ]
+   ]
+  },
+  "004973": {
+   "width": 500,
+   "height": 375,
+   "predictions": [
+    {
+     "xyxy": [
+      282.1,
+      147.4,
+      404.6,
+      235.2
+     ],
+     "conf": 0.3495,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      439.6,
+      131.0,
+      500.0,
+      165.2
+     ],
+     "conf": 0.2675,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      109.6,
+      148.5,
+      234.2,
+      235.7
+     ],
+     "conf": 0.2654,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      37.1,
+      139.5,
+      55.8,
+      146.2
+     ],
+     "conf": 0.0034,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      245.2,
+      138.4,
+      261.9,
+      151.2
+     ],
+     "conf": 0.003,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      0.0,
+      140.6,
+      111.0,
+      169.5
+     ],
+     "conf": 0.0027,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      0.0,
+      142.6,
+      56.1,
+      167.3
+     ],
+     "conf": 0.0019,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      492.9,
+      130.8,
+      499.9,
+      165.2
+     ],
+     "conf": 0.0017,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      36.3,
+      138.4,
+      65.6,
+      146.6
+     ],
+     "conf": 0.0017,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      3.2,
+      129.4,
+      54.8,
+      145.0
+     ],
+     "conf": 0.0016,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      0.0,
+      129.2,
+      56.2,
+      164.0
+     ],
+     "conf": 0.0016,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      245.0,
+      129.7,
+      261.7,
+      150.6
+     ],
+     "conf": 0.0014,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      494.1,
+      143.6,
+      500.0,
+      164.9
+     ],
+     "conf": 0.0012,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      491.9,
+      144.9,
+      499.9,
+      165.3
+     ],
+     "conf": 0.0011,
+     "prompt_class": "automobile"
+    }
+   ],
+   "ground_truth": [
+    [
+     110.0,
+     148.0,
+     234.0,
+     238.0
+    ],
+    [
+     280.0,
+     148.0,
+     407.0,
+     239.0
+    ]
+   ]
+  },
+  "006417": {
+   "width": 500,
+   "height": 375,
+   "predictions": [
+    {
+     "xyxy": [
+      0.0,
+      120.7,
+      80.1,
+      289.0
+     ],
+     "conf": 0.512,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      76.3,
+      107.3,
+      401.8,
+      259.3
+     ],
+     "conf": 0.4565,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      285.0,
+      75.2,
+      499.9,
+      230.9
+     ],
+     "conf": 0.2976,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      6.8,
+      114.6,
+      101.3,
+      185.7
+     ],
+     "conf": 0.1149,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      422.3,
+      73.9,
+      500.0,
+      231.4
+     ],
+     "conf": 0.0211,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      99.0,
+      91.9,
+      224.1,
+      124.7
+     ],
+     "conf": 0.0044,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      481.4,
+      114.2,
+      500.0,
+      176.0
+     ],
+     "conf": 0.0043,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      423.4,
+      74.9,
+      500.0,
+      165.9
+     ],
+     "conf": 0.0025,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      481.5,
+      78.9,
+      500.0,
+      219.3
+     ],
+     "conf": 0.002,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      0.2,
+      122.4,
+      42.4,
+      159.7
+     ],
+     "conf": 0.0016,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      0.0,
+      121.2,
+      42.3,
+      182.8
+     ],
+     "conf": 0.0015,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      435.9,
+      110.8,
+      457.0,
+      121.8
+     ],
+     "conf": 0.0013,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      427.8,
+      135.1,
+      481.0,
+      156.6
+     ],
+     "conf": 0.0013,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      265.3,
+      111.4,
+      301.4,
+      128.5
+     ],
+     "conf": 0.001,
+     "prompt_class": "automobile"
+    }
+   ],
+   "ground_truth": [
+    [
+     77.0,
+     108.0,
+     400.0,
+     261.0
+    ],
+    [
+     0.0,
+     125.0,
+     78.0,
+     277.0
+    ],
+    [
+     7.0,
+     115.0,
+     104.0,
+     189.0
+    ],
+    [
+     282.0,
+     81.0,
+     498.0,
+     232.0
+    ]
+   ]
+  },
+  "008633": {
+   "width": 500,
+   "height": 247,
+   "predictions": [
+    {
+     "xyxy": [
+      0.0,
+      0.0,
+      193.4,
+      240.5
+     ],
+     "conf": 0.5702,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      297.6,
+      4.9,
+      500.0,
+      231.3
+     ],
+     "conf": 0.3678,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      124.4,
+      0.0,
+      288.1,
+      76.3
+     ],
+     "conf": 0.0022,
+     "prompt_class": "automobile"
+    }
+   ],
+   "ground_truth": [
+    [
+     295.0,
+     11.0,
+     499.0,
+     232.0
+    ],
+    [
+     1.0,
+     4.0,
+     195.0,
+     243.0
+    ]
+   ]
+  },
+  "009862": {
+   "width": 375,
+   "height": 500,
+   "predictions": [
+    {
+     "xyxy": [
+      0.0,
+      124.3,
+      375.0,
+      500.0
+     ],
+     "conf": 0.3117,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      0.0,
+      112.4,
+      375.0,
+      499.6
+     ],
+     "conf": 0.166,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      224.3,
+      179.3,
+      375.0,
+      500.0
+     ],
+     "conf": 0.1107,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      0.0,
+      356.9,
+      59.8,
+      500.0
+     ],
+     "conf": 0.0477,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      0.0,
+      132.3,
+      359.7,
+      437.4
+     ],
+     "conf": 0.0173,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      67.7,
+      137.2,
+      310.2,
+      432.0
+     ],
+     "conf": 0.0075,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      0.0,
+      169.4,
+      154.5,
+      500.0
+     ],
+     "conf": 0.0047,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      254.9,
+      252.8,
+      374.8,
+      435.0
+     ],
+     "conf": 0.0039,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      246.8,
+      178.9,
+      375.0,
+      437.8
+     ],
+     "conf": 0.0035,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      0.0,
+      171.6,
+      124.2,
+      444.7
+     ],
+     "conf": 0.0031,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      0.0,
+      174.5,
+      74.1,
+      500.0
+     ],
+     "conf": 0.0021,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      307.3,
+      178.5,
+      375.0,
+      251.0
+     ],
+     "conf": 0.002,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      79.6,
+      112.5,
+      295.5,
+      192.1
+     ],
+     "conf": 0.0018,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      87.4,
+      144.4,
+      266.6,
+      420.1
+     ],
+     "conf": 0.0018,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      0.0,
+      394.1,
+      7.8,
+      410.8
+     ],
+     "conf": 0.0015,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      327.0,
+      304.5,
+      375.0,
+      500.0
+     ],
+     "conf": 0.0015,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      0.0,
+      163.2,
+      192.2,
+      436.8
+     ],
+     "conf": 0.0015,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      0.0,
+      290.6,
+      375.0,
+      500.0
+     ],
+     "conf": 0.0014,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      58.6,
+      437.5,
+      375.0,
+      500.0
+     ],
+     "conf": 0.0014,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      0.1,
+      169.7,
+      84.0,
+      360.4
+     ],
+     "conf": 0.0012,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      0.0,
+      356.6,
+      375.0,
+      500.0
+     ],
+     "conf": 0.0011,
+     "prompt_class": "automobile"
+    },
+    {
+     "xyxy": [
+      0.0,
+      247.2,
+      108.5,
+      393.3
+     ],
+     "conf": 0.001,
+     "prompt_class": "automobile"
+    }
+   ],
+   "ground_truth": [
+    [
+     1.0,
+     108.0,
+     374.0,
+     499.0
+    ]
+   ]
+  }
+ }
+}

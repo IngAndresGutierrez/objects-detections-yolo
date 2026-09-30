@@ -1,0 +1,1492 @@
+{
+ "meta": {
+  "method": "YOLOE-26s [vehicle]",
+  "conf_threshold": 0.071,
+  "has_scores": true,
+  "min_conf_saved": 0.001,
+  "weights": "yoloe-26s-seg.pt",
+  "imgsz": 640,
+  "split": "val",
+  "device": "cpu"
+ },
+ "images": {
+  "000373": {
+   "width": 333,
+   "height": 500,
+   "predictions": [
+    {
+     "xyxy": [
+      17.1,
+      344.5,
+      320.7,
+      450.3
+     ],
+     "conf": 0.6339,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      128.7,
+      353.3,
+      172.0,
+      375.7
+     ],
+     "conf": 0.0016,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      17.4,
+      344.8,
+      221.5,
+      449.6
+     ],
+     "conf": 0.0011,
+     "prompt_class": "vehicle"
+    }
+   ],
+   "ground_truth": [
+    [
+     18.0,
+     342.0,
+     318.0,
+     452.0
+    ]
+   ]
+  },
+  "003053": {
+   "width": 500,
+   "height": 333,
+   "predictions": [
+    {
+     "xyxy": [
+      288.5,
+      178.9,
+      444.9,
+      226.6
+     ],
+     "conf": 0.2538,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      458.0,
+      214.8,
+      487.6,
+      233.1
+     ],
+     "conf": 0.1651,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      53.9,
+      194.9,
+      121.5,
+      235.4
+     ],
+     "conf": 0.1102,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      0.4,
+      177.6,
+      236.1,
+      230.6
+     ],
+     "conf": 0.0437,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      0.0,
+      177.1,
+      230.1,
+      215.3
+     ],
+     "conf": 0.0399,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      367.4,
+      194.2,
+      444.6,
+      227.1
+     ],
+     "conf": 0.0214,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      295.0,
+      207.5,
+      349.4,
+      224.9
+     ],
+     "conf": 0.0106,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      0.2,
+      176.5,
+      87.7,
+      217.0
+     ],
+     "conf": 0.01,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      287.4,
+      179.9,
+      370.9,
+      224.1
+     ],
+     "conf": 0.0094,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      233.3,
+      158.7,
+      435.2,
+      220.3
+     ],
+     "conf": 0.0078,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      0.2,
+      176.7,
+      126.8,
+      217.3
+     ],
+     "conf": 0.0066,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      55.1,
+      189.9,
+      153.1,
+      234.7
+     ],
+     "conf": 0.006,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      63.6,
+      196.1,
+      116.4,
+      231.3
+     ],
+     "conf": 0.0049,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      53.4,
+      195.2,
+      87.0,
+      235.3
+     ],
+     "conf": 0.0048,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      0.1,
+      170.2,
+      183.7,
+      218.1
+     ],
+     "conf": 0.0038,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      270.5,
+      181.1,
+      500.0,
+      227.6
+     ],
+     "conf": 0.0038,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      443.0,
+      195.5,
+      466.1,
+      221.7
+     ],
+     "conf": 0.0036,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      287.0,
+      188.5,
+      333.1,
+      220.4
+     ],
+     "conf": 0.0031,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      437.2,
+      183.4,
+      499.8,
+      214.3
+     ],
+     "conf": 0.0031,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      96.5,
+      210.5,
+      121.0,
+      232.8
+     ],
+     "conf": 0.0025,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      461.2,
+      184.0,
+      499.5,
+      213.2
+     ],
+     "conf": 0.0023,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      51.7,
+      180.7,
+      153.3,
+      216.4
+     ],
+     "conf": 0.0017,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      122.7,
+      188.3,
+      236.1,
+      216.8
+     ],
+     "conf": 0.0016,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      257.0,
+      212.8,
+      265.9,
+      225.2
+     ],
+     "conf": 0.0016,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      291.1,
+      180.9,
+      344.0,
+      205.6
+     ],
+     "conf": 0.0016,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      288.4,
+      182.9,
+      335.4,
+      215.4
+     ],
+     "conf": 0.0014,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      127.0,
+      195.6,
+      153.6,
+      216.5
+     ],
+     "conf": 0.0013,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      210.5,
+      190.1,
+      234.8,
+      206.2
+     ],
+     "conf": 0.0013,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      437.0,
+      182.6,
+      500.0,
+      241.9
+     ],
+     "conf": 0.0013,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      55.9,
+      182.1,
+      224.1,
+      221.9
+     ],
+     "conf": 0.0013,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      0.3,
+      176.4,
+      121.8,
+      235.5
+     ],
+     "conf": 0.0013,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      435.1,
+      183.8,
+      499.7,
+      199.8
+     ],
+     "conf": 0.0012,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      296.5,
+      208.1,
+      328.1,
+      224.9
+     ],
+     "conf": 0.0012,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      439.1,
+      191.1,
+      465.7,
+      219.3
+     ],
+     "conf": 0.001,
+     "prompt_class": "vehicle"
+    }
+   ],
+   "ground_truth": [
+    [
+     457.0,
+     209.0,
+     490.0,
+     236.0
+    ]
+   ]
+  },
+  "003331": {
+   "width": 500,
+   "height": 333,
+   "predictions": [
+    {
+     "xyxy": [
+      440.4,
+      130.6,
+      499.9,
+      177.9
+     ],
+     "conf": 0.1141,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      100.3,
+      145.2,
+      186.9,
+      179.5
+     ],
+     "conf": 0.1058,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      275.6,
+      138.0,
+      349.0,
+      169.4
+     ],
+     "conf": 0.0883,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      161.1,
+      139.7,
+      311.3,
+      223.5
+     ],
+     "conf": 0.0813,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      0.0,
+      115.6,
+      10.1,
+      155.5
+     ],
+     "conf": 0.0266,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      425.4,
+      121.5,
+      460.4,
+      134.5
+     ],
+     "conf": 0.0257,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      421.4,
+      121.0,
+      470.3,
+      149.8
+     ],
+     "conf": 0.024,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      179.1,
+      20.6,
+      237.4,
+      39.0
+     ],
+     "conf": 0.0057,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      314.1,
+      128.6,
+      333.5,
+      148.3
+     ],
+     "conf": 0.0053,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      455.9,
+      131.1,
+      497.7,
+      148.2
+     ],
+     "conf": 0.004,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      479.0,
+      127.8,
+      499.8,
+      145.4
+     ],
+     "conf": 0.0031,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      0.1,
+      116.3,
+      4.5,
+      154.8
+     ],
+     "conf": 0.0025,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      425.6,
+      114.7,
+      454.4,
+      134.5
+     ],
+     "conf": 0.0017,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      59.0,
+      39.2,
+      69.4,
+      48.9
+     ],
+     "conf": 0.0016,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      276.8,
+      139.2,
+      330.2,
+      167.9
+     ],
+     "conf": 0.0016,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      144.0,
+      25.6,
+      153.3,
+      30.8
+     ],
+     "conf": 0.0012,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      372.6,
+      117.1,
+      425.7,
+      152.9
+     ],
+     "conf": 0.0012,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      0.5,
+      133.3,
+      10.0,
+      155.5
+     ],
+     "conf": 0.0012,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      376.7,
+      118.4,
+      470.3,
+      151.8
+     ],
+     "conf": 0.0012,
+     "prompt_class": "vehicle"
+    }
+   ],
+   "ground_truth": [
+    [
+     160.0,
+     139.0,
+     312.0,
+     225.0
+    ],
+    [
+     437.0,
+     133.0,
+     499.0,
+     178.0
+    ],
+    [
+     100.0,
+     144.0,
+     189.0,
+     180.0
+    ],
+    [
+     279.0,
+     138.0,
+     350.0,
+     170.0
+    ],
+    [
+     421.0,
+     120.0,
+     479.0,
+     152.0
+    ]
+   ]
+  },
+  "003551": {
+   "width": 500,
+   "height": 375,
+   "predictions": [
+    {
+     "xyxy": [
+      33.5,
+      111.9,
+      431.1,
+      286.6
+     ],
+     "conf": 0.4661,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      0.0,
+      106.3,
+      182.0,
+      189.5
+     ],
+     "conf": 0.3203,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      295.2,
+      98.7,
+      416.3,
+      133.3
+     ],
+     "conf": 0.071,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      334.5,
+      103.5,
+      415.2,
+      132.8
+     ],
+     "conf": 0.0371,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      297.5,
+      98.0,
+      358.4,
+      116.6
+     ],
+     "conf": 0.0203,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      112.1,
+      84.5,
+      167.9,
+      107.7
+     ],
+     "conf": 0.0131,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      303.9,
+      97.9,
+      356.1,
+      113.1
+     ],
+     "conf": 0.0098,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      112.2,
+      83.6,
+      145.8,
+      105.1
+     ],
+     "conf": 0.008,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      432.0,
+      71.8,
+      500.0,
+      129.9
+     ],
+     "conf": 0.0037,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      487.1,
+      68.2,
+      500.0,
+      147.9
+     ],
+     "conf": 0.0018,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      488.2,
+      71.5,
+      500.0,
+      128.2
+     ],
+     "conf": 0.0014,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      136.0,
+      85.0,
+      144.7,
+      99.4
+     ],
+     "conf": 0.001,
+     "prompt_class": "vehicle"
+    }
+   ],
+   "ground_truth": [
+    [
+     31.0,
+     111.0,
+     431.0,
+     290.0
+    ],
+    [
+     0.0,
+     105.0,
+     216.0,
+     193.0
+    ],
+    [
+     297.0,
+     98.0,
+     357.0,
+     117.0
+    ],
+    [
+     338.0,
+     103.0,
+     417.0,
+     132.0
+    ]
+   ]
+  },
+  "004089": {
+   "width": 500,
+   "height": 334,
+   "predictions": [
+    {
+     "xyxy": [
+      209.6,
+      124.1,
+      456.4,
+      294.0
+     ],
+     "conf": 0.3761,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      22.5,
+      58.9,
+      262.3,
+      201.4
+     ],
+     "conf": 0.2853,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      135.5,
+      69.9,
+      187.6,
+      114.1
+     ],
+     "conf": 0.0087,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      19.6,
+      58.7,
+      211.3,
+      110.4
+     ],
+     "conf": 0.0045,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      254.4,
+      121.8,
+      434.8,
+      152.9
+     ],
+     "conf": 0.0023,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      103.1,
+      70.0,
+      185.7,
+      116.9
+     ],
+     "conf": 0.0019,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      180.3,
+      87.1,
+      224.6,
+      116.2
+     ],
+     "conf": 0.0016,
+     "prompt_class": "vehicle"
+    }
+   ],
+   "ground_truth": [
+    [
+     209.0,
+     121.0,
+     461.0,
+     298.0
+    ],
+    [
+     18.0,
+     57.0,
+     265.0,
+     200.0
+    ]
+   ]
+  },
+  "004519": {
+   "width": 500,
+   "height": 375,
+   "predictions": [
+    {
+     "xyxy": [
+      90.7,
+      113.6,
+      403.2,
+      240.5
+     ],
+     "conf": 0.2133,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      480.9,
+      127.1,
+      500.0,
+      256.8
+     ],
+     "conf": 0.0411,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      480.4,
+      55.3,
+      500.0,
+      252.8
+     ],
+     "conf": 0.0025,
+     "prompt_class": "vehicle"
+    }
+   ],
+   "ground_truth": [
+    [
+     91.0,
+     109.0,
+     407.0,
+     240.0
+    ]
+   ]
+  },
+  "004973": {
+   "width": 500,
+   "height": 375,
+   "predictions": [
+    {
+     "xyxy": [
+      282.1,
+      147.5,
+      405.0,
+      235.1
+     ],
+     "conf": 0.2261,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      109.6,
+      148.6,
+      234.4,
+      235.4
+     ],
+     "conf": 0.2011,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      439.5,
+      131.1,
+      499.6,
+      165.0
+     ],
+     "conf": 0.1935,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      245.2,
+      138.4,
+      261.9,
+      151.2
+     ],
+     "conf": 0.0023,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      0.0,
+      129.6,
+      55.0,
+      166.5
+     ],
+     "conf": 0.0022,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      0.6,
+      128.9,
+      54.3,
+      145.2
+     ],
+     "conf": 0.0021,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      37.1,
+      140.0,
+      53.6,
+      146.0
+     ],
+     "conf": 0.002,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      0.0,
+      139.6,
+      110.0,
+      171.1
+     ],
+     "conf": 0.002,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      34.9,
+      137.7,
+      109.3,
+      162.2
+     ],
+     "conf": 0.0015,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      245.0,
+      129.7,
+      261.7,
+      150.6
+     ],
+     "conf": 0.0013,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      0.0,
+      142.6,
+      56.1,
+      167.3
+     ],
+     "conf": 0.0013,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      492.9,
+      130.8,
+      499.9,
+      165.2
+     ],
+     "conf": 0.0012,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      36.3,
+      138.4,
+      65.6,
+      146.6
+     ],
+     "conf": 0.0011,
+     "prompt_class": "vehicle"
+    }
+   ],
+   "ground_truth": [
+    [
+     110.0,
+     148.0,
+     234.0,
+     238.0
+    ],
+    [
+     280.0,
+     148.0,
+     407.0,
+     239.0
+    ]
+   ]
+  },
+  "006417": {
+   "width": 500,
+   "height": 375,
+   "predictions": [
+    {
+     "xyxy": [
+      76.1,
+      107.4,
+      401.4,
+      259.4
+     ],
+     "conf": 0.2804,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      0.0,
+      120.7,
+      80.1,
+      289.0
+     ],
+     "conf": 0.2664,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      286.8,
+      85.0,
+      499.9,
+      231.2
+     ],
+     "conf": 0.1712,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      6.8,
+      114.6,
+      101.3,
+      185.7
+     ],
+     "conf": 0.1331,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      422.3,
+      73.9,
+      500.0,
+      231.4
+     ],
+     "conf": 0.0197,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      99.9,
+      91.9,
+      223.5,
+      124.9
+     ],
+     "conf": 0.0151,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      481.4,
+      114.2,
+      500.0,
+      176.0
+     ],
+     "conf": 0.0043,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      423.4,
+      74.9,
+      500.0,
+      165.9
+     ],
+     "conf": 0.0042,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      481.5,
+      78.9,
+      500.0,
+      219.3
+     ],
+     "conf": 0.002,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      266.1,
+      111.8,
+      302.0,
+      129.4
+     ],
+     "conf": 0.0018,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      435.9,
+      110.8,
+      457.0,
+      121.8
+     ],
+     "conf": 0.0012,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      266.4,
+      111.7,
+      301.5,
+      121.6
+     ],
+     "conf": 0.001,
+     "prompt_class": "vehicle"
+    }
+   ],
+   "ground_truth": [
+    [
+     77.0,
+     108.0,
+     400.0,
+     261.0
+    ],
+    [
+     0.0,
+     125.0,
+     78.0,
+     277.0
+    ],
+    [
+     7.0,
+     115.0,
+     104.0,
+     189.0
+    ],
+    [
+     282.0,
+     81.0,
+     498.0,
+     232.0
+    ]
+   ]
+  },
+  "008633": {
+   "width": 500,
+   "height": 247,
+   "predictions": [
+    {
+     "xyxy": [
+      0.0,
+      0.0,
+      193.2,
+      240.2
+     ],
+     "conf": 0.408,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      297.4,
+      5.8,
+      500.0,
+      231.3
+     ],
+     "conf": 0.1784,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      124.4,
+      0.0,
+      288.1,
+      76.3
+     ],
+     "conf": 0.0089,
+     "prompt_class": "vehicle"
+    }
+   ],
+   "ground_truth": [
+    [
+     295.0,
+     11.0,
+     499.0,
+     232.0
+    ],
+    [
+     1.0,
+     4.0,
+     195.0,
+     243.0
+    ]
+   ]
+  },
+  "009862": {
+   "width": 375,
+   "height": 500,
+   "predictions": [
+    {
+     "xyxy": [
+      0.0,
+      124.3,
+      375.0,
+      500.0
+     ],
+     "conf": 0.4564,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      0.0,
+      112.4,
+      375.0,
+      499.6
+     ],
+     "conf": 0.2523,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      0.0,
+      132.3,
+      359.7,
+      437.4
+     ],
+     "conf": 0.0764,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      224.3,
+      179.3,
+      375.0,
+      500.0
+     ],
+     "conf": 0.0684,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      0.0,
+      358.1,
+      59.3,
+      500.0
+     ],
+     "conf": 0.0204,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      67.3,
+      136.6,
+      315.4,
+      429.2
+     ],
+     "conf": 0.0185,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      246.8,
+      178.9,
+      375.0,
+      437.8
+     ],
+     "conf": 0.0097,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      87.4,
+      144.4,
+      266.6,
+      420.1
+     ],
+     "conf": 0.0038,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      79.6,
+      112.5,
+      295.5,
+      192.1
+     ],
+     "conf": 0.0034,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      0.0,
+      169.4,
+      154.5,
+      500.0
+     ],
+     "conf": 0.0034,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      0.0,
+      171.6,
+      124.2,
+      444.7
+     ],
+     "conf": 0.0026,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      254.9,
+      252.8,
+      374.8,
+      435.0
+     ],
+     "conf": 0.0025,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      0.0,
+      290.6,
+      375.0,
+      500.0
+     ],
+     "conf": 0.0024,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      0.0,
+      163.2,
+      192.2,
+      436.8
+     ],
+     "conf": 0.0024,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      0.0,
+      356.6,
+      375.0,
+      500.0
+     ],
+     "conf": 0.0022,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      58.6,
+      437.5,
+      375.0,
+      500.0
+     ],
+     "conf": 0.0017,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      0.0,
+      414.5,
+      375.0,
+      500.0
+     ],
+     "conf": 0.0015,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      0.0,
+      174.5,
+      74.1,
+      500.0
+     ],
+     "conf": 0.0012,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      0.0,
+      1.6,
+      374.6,
+      476.7
+     ],
+     "conf": 0.0011,
+     "prompt_class": "vehicle"
+    },
+    {
+     "xyxy": [
+      307.3,
+      178.5,
+      375.0,
+      251.0
+     ],
+     "conf": 0.001,
+     "prompt_class": "vehicle"
+    }
+   ],
+   "ground_truth": [
+    [
+     1.0,
+     108.0,
+     374.0,
+     499.0
+    ]
+   ]
+  }
+ }
+}

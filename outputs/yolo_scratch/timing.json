@@ -1,0 +1,18 @@
+{
+  "model": "models/yolo26n_scratch_best.pt",
+  "imgsz": 640,
+  "conf_threshold": 0.106,
+  "min_conf_saved": 0.001,
+  "method": "YOLO26n desde cero",
+  "split": "test",
+  "device": "cpu",
+  "n_images": 5,
+  "mean_ms_per_image": 25.6,
+  "per_image_ms": {
+    "003461": 26.2,
+    "006011": 27.8,
+    "006301": 25.7,
+    "008859": 23.8,
+    "009326": 24.5
+  }
+}

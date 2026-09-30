@@ -1,0 +1,10 @@
+{
+  "enabledPlugins": {
+    "context7@claude-plugins-official": true,
+    "fiftyone@claude-plugins-official": true,
+    "vercel@claude-plugins-official": false,
+    "crehana-frontend@crehana": false,
+    "crehana-backend@crehana": false,
+    "rust-analyzer-lsp@claude-plugins-official": false
+  }
+}

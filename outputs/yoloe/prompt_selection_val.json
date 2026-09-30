@@ -1,0 +1,87 @@
+{
+  "criterion": "max val AP50, desempate AP50-95",
+  "chosen": {
+    "prompt": "car",
+    "classes": [
+      "car"
+    ],
+    "val_AP50": 0.972,
+    "val_AP50-95": 0.7811,
+    "best_conf": 0.0982,
+    "val_F1": 0.9388,
+    "TP": 23,
+    "FP": 3,
+    "FN": 0,
+    "precision": 0.8846,
+    "recall": 1.0,
+    "F1": 0.9388
+  },
+  "all": [
+    {
+      "prompt": "car",
+      "classes": [
+        "car"
+      ],
+      "val_AP50": 0.972,
+      "val_AP50-95": 0.7811,
+      "best_conf": 0.0982,
+      "val_F1": 0.9388,
+      "TP": 23,
+      "FP": 3,
+      "FN": 0,
+      "precision": 0.8846,
+      "recall": 1.0,
+      "F1": 0.9388
+    },
+    {
+      "prompt": "car+van+pickup",
+      "classes": [
+        "car",
+        "van",
+        "pickup truck"
+      ],
+      "val_AP50": 0.972,
+      "val_AP50-95": 0.7811,
+      "best_conf": 0.0982,
+      "val_F1": 0.9388,
+      "TP": 23,
+      "FP": 3,
+      "FN": 0,
+      "precision": 0.8846,
+      "recall": 1.0,
+      "F1": 0.9388
+    },
+    {
+      "prompt": "vehicle",
+      "classes": [
+        "vehicle"
+      ],
+      "val_AP50": 0.8869,
+      "val_AP50-95": 0.7403,
+      "best_conf": 0.071,
+      "val_F1": 0.8571,
+      "TP": 21,
+      "FP": 5,
+      "FN": 2,
+      "precision": 0.8077,
+      "recall": 0.913,
+      "F1": 0.8571
+    },
+    {
+      "prompt": "automobile",
+      "classes": [
+        "automobile"
+      ],
+      "val_AP50": 0.9592,
+      "val_AP50-95": 0.7923,
+      "best_conf": 0.1024,
+      "val_F1": 0.875,
+      "TP": 21,
+      "FP": 4,
+      "FN": 2,
+      "precision": 0.84,
+      "recall": 0.913,
+      "F1": 0.875
+    }
+  ]
+}

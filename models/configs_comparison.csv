@@ -1,0 +1,3 @@
+run,imgsz,epochs,batch,train_time_s,best_epoch_curve,val_precision,val_recall,val_mAP50,val_mAP50-95
+img640,640,100,8,466.8,74,0.1478,0.3043,0.1462,0.0472
+img416,416,100,8,237.7,80,0.1592,0.1739,0.1105,0.0356

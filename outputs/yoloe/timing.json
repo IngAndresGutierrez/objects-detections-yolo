@@ -1,0 +1,5 @@
+{
+  "mean_ms_per_image": 68.4,
+  "device": "cpu",
+  "imgsz": 640
+}

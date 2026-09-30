@@ -1,0 +1,5 @@
+.venv/
+data/raw/
+__pycache__/
+runs/
+part2_no_entregable/mobileclip2_b.ts
